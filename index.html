@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="flex justify-center items-center h-[100vh]">
+    
+    <div>
+        <div class="bg-yellow-400 w-[400px] h-[100px] flex justify-between rounded-md items-center px-[50px] gap-6 mb-[20px]">
+            <button id="number1" class="w-[50px] h-[50px] border border-2 font-bold"> </button>
+            <button id="opera" class="w-[50px] h-[50px] border border-2 font-bold"> </button>
+            <button id="number2" class="w-[50px] h-[50px] border border-2 font-bold"> </button>
+        </div>
+        <div>
+            <button onclick="fk()" class="bg-green-500 w-[400px] h-[50px] rounded-md text-white mb-[20px]">check</button>
+            <div id="res" class="bg-red-500 w-[400px] flex justify-center items-center rounded-md h-[70px] text-white text-[24px font-bold]">
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
